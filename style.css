@@ -1,0 +1,170 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8
+}
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 225px;
+}
+
+.header, .intro-cont {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+
+.intro {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.intro-cont {
+    display: flex;
+    padding: 10px 225px;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: #3882f6;
+    padding: 8px 30px;
+    font-size: medium;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-title{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.card-cont{
+    display: flex;
+    padding: 10px 225px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1, .card2, .card3, .card4{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.quote-cont{
+    background-color: #e5e7eb;
+    padding: 50px 250px;
+}
+
+.quote {
+font-size: 36px;
+font-weight: light;
+font-style: italic;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.credit{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding:100px 225px;
+}
+
+.call-action{
+    display: flex;
+    flex-direction: column;
+}
+.action-call{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 8px;
+    flex: 1;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.action-d {
+    font-size: 16px;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+.abutton{
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-style: double;
+    color: #f9faf8;
+    padding: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#e5e7eb;
+    padding: 40px;
+}
